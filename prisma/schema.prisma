@@ -19,4 +19,6 @@ datasource db {
     unitsLeft       Int
     pricePerUnit    Float
     isOnOffer       Boolean
+
+    @@map("products-table")
   }
